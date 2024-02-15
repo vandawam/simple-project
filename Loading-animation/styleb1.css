@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    animation: rotate 2s linear infinite;
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    animation: bounce 1s infinite alternate ease-in-out;
+  }
+  
+  .dot1 {
+    background-color: #19A68C;
+  }
+  
+  .dot2 {
+    background-color: #F63D3A;
+  }
+  
+  .dot3 {
+    background-color: #FDA543;
+  }
+  
+  .dot4 {
+    background-color: #193B48;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      margin: 2px;
+    }
+    100% {
+      margin: 10px;
+    }
+  }

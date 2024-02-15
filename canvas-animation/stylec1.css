@@ -1,0 +1,9 @@
+.container {
+    margin: auto;
+}
+
+.canvas {
+    border: 1px;
+    border-color: black;
+    background-color: rgb(24, 101, 50);
+}
